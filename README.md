@@ -1,4 +1,4 @@
-# PARASploit.com\
+# PARASploit.com
 
 # PARASploit
 Self Project 
