@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: #333;
+    min-height: 105vh;
+    background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+}
+
+.Headline {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}

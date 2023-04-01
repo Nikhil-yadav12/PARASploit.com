@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XSS Detector</title>
+  </head>
+  <body>
+    <h1>XSS Detector</h1>
+    <form action="/detect" method="post">
+      <label for="url">Enter a URL:</label>
+      <input type="text" id="url" name="url" required>
+      <button type="submit">Detect</button>
+    </form>
+  </body>
+</html>
