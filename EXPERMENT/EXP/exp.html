@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link href="exp.css" rel="Stylesheet" />
+    <link href="exp.js" rel="Javascript" />
+    <link href="validation.js" rel="Javascript" />
+</head>
+<body>
+    <section class="Page-head">
+        <h1 class="PAY">Payment Gateway</h1>
+    </section>
+
+    <section class="options">
+        <p id="CC">Credit Card</p><br>
+        <p id="DC">Debit Card</p><br>
+        <p id="UPI">UPI</p><br>
+        <p id="IB">Internet Banking</p><br>
+    </section>
+    
+    <section class="Sec-out">
+        <div class="Card-back">
+            <input type="tel" placeholder="CVV" required class="Cvv" pattern="[0-9]" minlength="3" maxlength="3" />
+        </div>
+
+        <div class="Card-out">
+            <h3 id="Card-text">Credit Card</h3>
+            <div class="card-info">
+                <form action="/New Design/Main.html" method="post" onsubmit="validation()">
+                    <br /><br />
+                <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="16" placeholder="XXXX XXXX XXXX XXXX" required class="CNo"  /><br /><br /><br><br /><br />
+                <input type="text" placeholder="CARD HOLDER NAME" class="CName" maxlength="20" minlength="3" required />
+                <input type="text" placeholder="MM/YY" class="ExpDate" maxlength="5" required />
+                
+            </div>
+        </div>
+
+        <button class="pay-button" >PAY</button>
+                </form>
+        
+    </section>
+
+</body>
+</html>

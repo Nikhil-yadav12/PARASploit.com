@@ -1,0 +1,93 @@
+footer {
+    position: relative;
+    width: 100%;
+    background: #000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .social_icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 600px;
+}
+
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer .social_icon li, 
+footer .menu li {
+    list-style: none;
+}
+
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover [name="logo-facebook"] {
+    transform: translateY(-10px);
+    color: #3b5998;
+    transition: 0.4s;
+}
+
+footer .social_icon li a:hover [name="logo-twitter"] {
+    transform: translateY(-10px);
+    color: #00acee;
+    transition: 0.4s;
+}
+
+footer .social_icon li a:hover [name="logo-linkedin"] {
+    transform: translateY(-10px);
+    color:  #0e76a8;
+    transition: 0.4s;
+}
+
+footer .social_icon li a:hover [name="logo-instagram"] {
+    transform: translateY(-10px); 
+    color:  #d62976;
+    transition: 0.4s;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.75s;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+    color: #39ff14;
+    transform: translateY(-10px);
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .social_icon .logoImg {
+    margin-right: 500px;
+    max-width: 90px;
+    border-radius: 100px;
+}

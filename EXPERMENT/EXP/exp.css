@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: #333;
+    min-height: 100vh;
+    background: linear-gradient(
+        33deg,
+        gray 0%,
+        gray 30%,
+        rgb(80, 80, 80) 45%,
+        rgb(80, 80, 80) 100%
+    );
+}
+
+.PAY {
+    color: goldenrod;
+    font-size: 60px;
+    text-align: center;
+    border-bottom-style: groove;
+    width: 1000px;
+    margin-left: 450px;
+}
+
+.options {
+    position: absolute;
+    color: white;
+    width: 25%;
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-weight: 400;
+    padding-left: 40px;
+    border-right-style: groove;
+    border-right-color: gold;
+}
+
+.options #CC:hover {
+    color: aqua;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.options #DC:hover {
+    color: aqua;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.options #UPI:hover {
+    color: aqua;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.options #IB:hover {
+    color: aqua;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+/* Card Design */
+
+.Sec-out {
+    position: relative;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+.Card-out {
+    position: relative;
+    background-color: #aaa9ad;
+    box-shadow: 15px 20px #4d4b4b;
+    width: 550px;
+    height: 320px;
+    border-radius: 8%;
+    margin-top: -150px;
+}
+
+#Card-text {
+    color: black;
+    margin-left: 30px;
+}
+
+.card-info {
+    align-items: center;
+}
+
+.Card-out .card-info input {
+    background-color: #aaa9ad;
+    margin-left: 60px;
+    border-style: hidden;
+    border-bottom-style: groove;
+    color: black;
+    font-size: 20px;
+}
+
+.Card-out .card-info .CNo {
+    width: 50%;
+}
+
+.Card-out .card-info .CName {
+    background-color: #aaa9ad;
+    margin-left: 60px;
+    width: 38%;
+    font-size: 20px;
+}
+
+.Card-out .card-info .ExpDate {
+    width: 20%;
+    font-size: 20px;
+}
+
+.Card-out .card-info input::placeholder {
+    background-color: #aaa9ad;
+    border-color: #aaa9ad;
+    color: black;
+    
+}
+
+.Card-back {
+    position: absolute;
+    background-color: #aaa9ad;
+    box-shadow: 15px 20px #4d4b4b;
+    width: 550px;
+    height: 320px;
+    border-radius: 8%;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.Pay {
+    color: goldenrod;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.Card-back .Cvv {
+    margin-left: 380px;
+    margin-top: 90px;
+    width: 25%;
+    font-size: 20px;
+
+}
+
+input {
+    background-color: #aaa9ad;
+    border-style: hidden;
+    border-bottom-style: groove;
+    color: black;
+}   
+
+.pay-button {
+    width: 100px;
+    height: 50px;
+    margin-top: 140px;
+    margin-left: 270px;
+    color: goldenrod;
+    font-size: 30px;
+    background-color: black;
+    border-style: hidden;
+    border-radius: 15%;
+}

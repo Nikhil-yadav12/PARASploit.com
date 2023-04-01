@@ -1,0 +1,180 @@
+#Contact {
+    min-height: 120vh;
+    text-align: center;
+    background-color: black;
+    margin-top: -18px;
+}
+
+.Contactus {
+    display: flex;
+}
+
+.cont-info {
+    
+    width: 40%;
+}
+
+.CONT-text-1 {
+    color: rgb(71, 70, 70);
+    font-size: 12.5rem; 
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: 900; 
+    margin: 18px auto 0; 
+}
+.CONT-text-2 {
+    color: rgb(218, 165, 32);
+    text-transform: uppercase; 
+    font-weight: 900; 
+    font-size: 5.5rem; 
+    margin: -153px auto 0;
+    text-align: center;
+    opacity: 1;
+}
+
+.CONT-text-3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.Cont-text-4 {
+    display: block;
+    color: white;
+    text-align: justify;
+    max-width: 100%;
+    margin-left: 142px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.cont-icon {
+    width: 75%;
+    margin-left: 55px;
+}
+
+.cont-icon lord-icon {
+    width: 250px;
+    height: 150px;
+    filter: invert(100%);
+}
+
+.cont-mailme {
+    color: #ffd700;
+    text-align: left;
+    margin-left: 280px;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.cont-mailme #email {
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.cont-callme {
+    max-width: 15%;
+    margin-bottom: 10px;
+    margin-left: 255px;
+}
+
+.cont-pno {
+    max-width: 100%;
+    margin-top: -10px;
+    margin-left: 278px;
+}
+
+.cont-pno h3 {
+    font-size: 28px;
+    color: gold;
+    text-align: left;
+}
+
+.cont-pno #pno {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* Form Page CSS */
+
+.cont-Form_page {
+    display: flex;
+    width: 50%;
+}
+
+.cont-form {
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.cont-form form input {
+    width: 70%;
+    height: 60px;
+    color: white;
+    font-size: larger;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid goldenrod;
+}
+
+.cont-form form input::placeholder {
+    color: rgb(209, 206, 206);
+    padding-left: 10px;
+    font-size: large;
+    opacity: 0.5;
+}
+
+.cont-form form .UMessage {
+    width: 70%;
+    height: 150px;
+    font-size: larger;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid goldenrod;
+    font-weight: 100;
+}
+
+.cont-form form .UMessage::placeholder {
+    color: rgb(209, 206, 206);
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: large;
+    opacity: 0.5;
+}
+
+.Submit{
+    background-color: goldenrod;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.Submit pre {
+    
+    font-weight: 100;
+    font-size: x-large;
+    width: 100%;
+    transform: translateX(-100px);
+    transition: 0.5s;
+    
+}
+
+
+.Submit pre:hover {
+    text-align: center;
+    transform: translateX(10px);
+}

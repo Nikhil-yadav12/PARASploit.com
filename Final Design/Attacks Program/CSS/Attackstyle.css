@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: #333;
+    min-height: 105vh;
+    background: linear-gradient(
+        110deg,
+        gray 0%,
+        gray 33.5%,
+        rgb(80, 80, 80) 33.5%,
+        rgb(80, 80, 80) 100%
+    );
+}
+
+/* Nav bar style */
+
+.title {
+    display: block;
+    color: rgb(26, 22, 22);
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 45%;
+    height: 50vh;
+}
+
+#main-nav {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    position: sticky;
+    box-sizing: border-box;
+    height: 55px;
+    z-index: 1;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+nav a:hover {
+    filter: invert(100%);
+}
+
+#main-nav.sticky {
+    position: fixed;
+    top: 0;
+}
+
+#nav-img {
+    width: 165px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+
+/* Form Style */
+.det-form_page {
+    display: flex;
+    width: 50%;
+}
+
+.det-form {
+    width: 100%;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.det-form form input {
+    width: 70%;
+    height: 60px;
+    color: white;
+    font-size: larger;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid goldenrod;
+}
+
+.det-form form input::placeholder {
+    color: rgb(209, 206, 206);
+    padding-left: 10px;
+    font-size: large;
+    opacity: 0.5;
+}
+
+.det-form form .UMessage {
+    width: 70%;
+    height: 150px;
+    font-size: larger;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid goldenrod;
+    font-weight: 100;
+}
+
+.det-form form .UMessage::placeholder {
+    color: rgb(209, 206, 206);
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: large;
+    opacity: 0.5;
+}
+
+.Submit{
+    background-color: goldenrod;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.Submit pre {
+    
+    font-weight: 100;
+    font-size: x-large;
+    width: 100%;
+    transform: translateX(-100px);
+    transition: 0.5s;
+    
+}
+
+
+.Submit pre:hover {
+    text-align: center;
+    transform: translateX(10px);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .glass-nav {
+    position: relative;
+    width: 50%;
+    height: 80px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.container .glass-nav .content {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .glass-nav:hover .content {
+    
+    transform: translateY(1px);
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    width: 100%;
+    background: #000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .social_icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 600px;
+}
+
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer .social_icon li, 
+footer .menu li {
+    list-style: none;
+}
+
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover [name="logo-facebook"] {
+    transform: translateY(-10px);
+    color: #3b5998;
+    transition: 0.4s;
+}
+
+footer .social_icon li a:hover [name="logo-twitter"] {
+    transform: translateY(-10px);
+    color: #00acee;
+    transition: 0.4s;
+}
+
+footer .social_icon li a:hover [name="logo-linkedin"] {
+    transform: translateY(-10px);
+    color:  #0e76a8;
+    transition: 0.4s;
+}
+
+footer .social_icon li a:hover [name="logo-instagram"] {
+    transform: translateY(-10px); 
+    color:  #d62976;
+    transition: 0.4s;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.75s;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+    color: #39ff14;
+    transform: translateY(-10px);
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .social_icon .logo {
+    margin-right: 500px;
+    max-width: 90px;
+    border-radius: 100px;
+}
